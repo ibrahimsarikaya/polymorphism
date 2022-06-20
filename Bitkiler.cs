@@ -8,7 +8,7 @@ namespace inheritance
         {
             Console.WriteLine("Bitkiler fotosentez Yapar.");
         }
-        public override void UyaranlaraTepki()
+        public override void UyaranlaraTepki() // Alt sınıfta yazılan sanal(virtual) methodlar. 
         {
             //base.UyaranlaraTepki();
             Console.WriteLine("Bitkiler güneşe tepki verir.");

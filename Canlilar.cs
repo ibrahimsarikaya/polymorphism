@@ -17,7 +17,7 @@ namespace inheritance
             Console.WriteLine("Canlılar Boşaltım Yapar.");
         }
 
-        public virtual void UyaranlaraTepki()
+        public virtual void UyaranlaraTepki() // Sanal(Virtual) metotlar kalıtım alınan yani miras veren sınıf içerisinde(Bu programda canlılar oluyor yani) yazılan ve daha sonra alt sınıflarda yeniden yazılabilen metotlardır. Sealed ise classı gizlemek, kapatmak için kullanılır.
         {
             Console.WriteLine("Canlılar uyaranlara tepki verir.");
         }

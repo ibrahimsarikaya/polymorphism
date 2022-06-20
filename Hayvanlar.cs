@@ -8,7 +8,7 @@ namespace inheritance
         {
             Console.WriteLine("Hayvanlar Adaptasyon Kurabilir.");
         }
-        public override void UyaranlaraTepki()
+        public override void UyaranlaraTepki() // Alt sınıfta yazılan sanal(virtual) methodlar. 
         {
             base.UyaranlaraTepki();
             Console.WriteLine("Hayvanlar Temasa Tepki verir.");
